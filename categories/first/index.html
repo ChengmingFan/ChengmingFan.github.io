@@ -14,7 +14,7 @@
     
     
     
-    <title>Hexo</title>
+    <title>Categories: first | Hexo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
@@ -23,7 +23,7 @@
     <meta name="keywords" content="">
     <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/categories/first/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
@@ -62,7 +62,7 @@
     <div class="scroll-wrap flex-col">
       <ul class="nav">
         
-            <li class="waves-block waves-effect active">
+            <li class="waves-block waves-effect">
               <a href="/"  >
                 <i class="icon icon-lg icon-home"></i>
                 主页
@@ -83,7 +83,7 @@
               </a>
             </li>
         
-            <li class="waves-block waves-effect">
+            <li class="waves-block waves-effect active">
               <a href="/categories"  >
                 <i class="icon icon-lg icon-th-list"></i>
                 Categories
@@ -122,7 +122,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">Hexo</div>
+        <div class="flex-col header-title ellipsis">Categories: first</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -141,40 +141,52 @@
         
     </div>
 </header>
-<header class="content-header index-header">
+<header class="content-header categories-header">
 
     <div class="container fade-scale">
-        <h1 class="title">Hexo</h1>
+        <h1 class="title">Categories: first</h1>
         <h5 class="subtitle">
-            
-                
             
         </h5>
     </div>
 
     
+<div class="tabs-bar container">
+    <nav class="tags-list">
+        <a href="/categories" style="-webkit-order:-1;order:-1" class="tags-list-item waves-effect waves-button waves-light
+            ">All</a>
+        
+
+            <a href="/categories/first/" style="-webkit-order:0;order:0" class="tags-list-item waves-effect waves-button waves-light active">first</a>
+
+        
+    </nav>
+    <!-- PC show more-->
+    <div class="tags-list-more">
+        <a href="javascript:;" onclick="BLOG.tabBar(this)" class="action tags-list-item waves-effect waves-circle waves-light"><i class="icon icon-ellipsis-h"></i></a>
+    </div>
+</div>
+
 
 
 </header>
 
-<div class="container body-wrap">
-
-    <ul class="post-list">
+<div class="container body-wrap fade">
     
-        <li class="post-list-item fade">
-            <article id="post-hoho (2)"
-  class="article-card article-type-post" itemprop="blogPost">
+            <div class="waterfall">
+          
 
+            <div class="waterfall-item">
+  <article class="article-card archive-article">
     <div class="post-meta">
-        <time class="post-time" title="2018-05-06 17:38:20" datetime="2018-05-06T09:38:20.000Z"  itemprop="datePublished">2018-05-06</time>
+      <time class="post-time" title="2018-05-06 17:38:20" datetime="2018-05-06T09:38:20.000Z"  itemprop="datePublished">2018-05-06</time>
 
-        
+      
 	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/first/">first</a></li></ul>
 
 
 
     </div>
-
     
 
 
@@ -186,17 +198,6 @@
 
 
 
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        “当时我就念了两句诗”
-    
-
-        <a href="/2018/05/06/hoho (2)/" class="post-more waves-effect waves-button">
-            Continue reading...
-        </a>
-    </div>
     
     <div class="post-footer">
         
@@ -204,55 +205,15 @@
 
     </div>
     
-</article>
-
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-hello-world"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    <div class="post-meta">
-        <time class="post-time" title="2018-05-05 17:24:09" datetime="2018-05-05T09:24:09.812Z"  itemprop="datePublished">2018-05-05</time>
+  </article>
+</div>
 
         
-
-
-    </div>
-
+            </div>
+        
     
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2018/05/05/hello-world/">Hello World</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Qu...
-    
-
-        <a href="/2018/05/05/hello-world/" class="post-more waves-effect waves-button">
-            Continue reading...
-        </a>
-    </div>
-    
-</article>
-
-        </li>
-    
-    </ul>
-
-    
-
 </div>
+
 
         <footer class="footer">
     <div class="top">
@@ -293,7 +254,7 @@ Qu...
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/&title=Hexo&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/categories/first/&title=Hexo&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -303,22 +264,22 @@ Qu...
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/&title=Hexo&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/categories/first/&title=Hexo&source=" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/categories/first/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Hexo&url=http://yoursite.com/&via=http://yoursite.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Hexo&url=http://yoursite.com/categories/first/&via=http://yoursite.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/categories/first/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -329,7 +290,7 @@ Qu...
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAABW0lEQVR42u3aQQ7DIAxE0dz/0qnUVaUUMjNOF7W/VxVKw8sCMIbjkON8x6r9M/T/PhCwYDVindu4PqO0XNv1vmDBmszaD2y9S/33jQEWLFjC6/QFGBYsWL9muV3CggVrz1KSZmWy0JPvx3J5WLBasCrLbSVRfri+BQvW37JOM9xlOwtYsKax9CLRfhRXtrhGBgELVlPWSpptSvVk+qYvWLBgRUWiynWEL++BBQuW0KUy1BXWsgUWrGEsN2nOQNJRij67wILVlKUUZCvLuVJsks5gYcFqyqqUbt0jE2PqgQVrMMu9fJAdcCqTCCxY01jZQUi2uS2d/MCC1ZpVuXCQlWul1BwWrGGsLOXdd6kv5PVEHBasTqxsUtDTZXcqgQVrMisr/WTbVOkZWLBgyYPcPcMxMgVYsGA9tL1Uik3Lz4AFayQrS5rd1NmYE2DBGsbKrgtkxFI1CxasnqwXXY7FbVPN83MAAAAASUVORK5CYII=" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABx0lEQVR42u3aS27DMAwFwNz/0gnQVRex+kh97AKjVRAn1tiLB4rS6xWP988Yf/79zdW4uufigYuLO81NJri6dcJNruYPiYuLe5KbhNd4muQVXP0rfx24uLhP4/bo+QPg4uL+R26CzpdPuLi4z+fOFyXVh9m+VsPFxZ3grmqYzny+ob+Li4vb2pXIA6VQoMzMjouLe4SbFCtJnI0pydV8OYSLi3uGW22J5sHUK2WiAMXFxd3MzYuYZEu1eswiicgvJQ4uLu4Rbq9MyQOuOlfzYBYuLu4i7vw0vcfLt2ciNC4u7iJuvs2ZHMqceUOF3WBcXNzj3LwBmixg8gJlWbLi4uIu5eaLn7ypUQ3EP+6Pi4t7kNs7ZlFtjy6ISFxc3Mdw88MZSaGTXL2cERcX9wi3Chr/Mm+RzMQcLi7ubm4SHPlBq96m7DhMcXFx7+L2ipXesYnCcQpcXNxbufnoxVb1EEZkx8XF3catBkq5KCkunHobwLi4uDu4SXhVt1SrDdNCuwQXF/cgd74c6W2TFBY/uLi4j+SO429Hk/TLnXFxcR/JzQMraalU/4uLi3uSOxUu0wuq/AXh4uKe4fYapkkkzQQlLi7uTdwPiqO+Vb/+3QIAAAAASUVORK5CYII=" alt="微信分享二维码">
 </div>
 
 

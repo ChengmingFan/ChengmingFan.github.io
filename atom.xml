@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-05T09:24:09.812Z</updated>
+  <updated>2018-05-06T14:19:35.203Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello world</title>
+    <link href="http://yoursite.com/2018/05/06/hoho%20(2)/"/>
+    <id>http://yoursite.com/2018/05/06/hoho (2)/</id>
+    <published>2018-05-06T09:38:20.000Z</published>
+    <updated>2018-05-06T14:19:35.203Z</updated>
+    
+    <content type="html"><![CDATA[<p>“当时我就念了两句诗”<br><a id="more"></a><br>你可不可以<br>成为我的main函数<br>做我此生必须有<br>且只能有一个的入口<br>——————————<br>我愿为自己加上private<br>在你的class中只有<br>你能调用</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;“当时我就念了两句诗”&lt;br&gt;
+    
+    </summary>
+    
+      <category term="first" scheme="http://yoursite.com/categories/first/"/>
+    
+    
+      <category term="hello world" scheme="http://yoursite.com/tags/hello-world/"/>
+    
+      <category term="hello" scheme="http://yoursite.com/tags/hello/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
